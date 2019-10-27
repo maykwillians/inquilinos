@@ -5,8 +5,8 @@ class MyColors {
   Color primary_color;
   Color accent_color;
 
-  Color branco;
-  Color preto;
+  Color white;
+  Color black;
   Color tab_bar_color;
   Color text_link_color;
   Color bt_cancelar_color;
@@ -18,8 +18,8 @@ class MyColors {
 
     this.primary_color = getColorFromHex("#8e24aa");
     this.accent_color = getColorFromHex("#8e24aa");
-    this.branco = getColorFromHex("#ffffff");
-    this.preto = getColorFromHex("#000000");
+    this.white = getColorFromHex("#ffffff");
+    this.black = getColorFromHex("#000000");
     this.tab_bar_color = getColorFromHex("#fb9e15");
     this.text_link_color = getColorFromHex("#6fbcef");
     this.bt_cancelar_color = getColorFromHex("#f26537");

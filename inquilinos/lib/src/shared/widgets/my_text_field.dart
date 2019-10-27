@@ -1,18 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:inquilinos/src/shared/colors/my_colors.dart';
 
-class MyTextFormFieldStyle {
+class MyTextField {
 
   MyColors _myColors = MyColors();
 
-  TextFormField textFormFieldCommom(String label) {
+  TextFormField textFormFieldCommon(String label, TextEditingController input) {
     return TextFormField(
       keyboardType: TextInputType.number,
+      controller: input,
       decoration: InputDecoration(
         labelText: label,
-        labelStyle: TextStyle(color: _myColors.preto),
+        labelStyle: TextStyle(color: _myColors.white),
       ),
-      style: TextStyle(color: _myColors.accent_color, fontSize: 22),
+      style: TextStyle(color: _myColors.white, fontSize: 18),
     );
   }
 }
